@@ -1,3 +1,5 @@
+![Taller](img/flujo.png)
+
 # Taller de automatización con Make + Google Forms + Gmail
 
 Este taller tiene como objetivo crear una automatización básica sin programar, en la que una respuesta enviada desde Google Forms activa el envío automático de un correo de confirmación mediante Gmail usando Make.
@@ -14,4 +16,3 @@ Para desarrollar este ejercicio se utilizaran las siguientes herramientas:
 - **Google Forms**: herramienta para crear formularios.
 - **Gmail**: servicio de correo para enviar la confirmación automática.
 - **Cuenta de Google**: necesaria para conectar Google Forms y Gmail con Make.
-
