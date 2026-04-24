@@ -35,23 +35,113 @@ Para realizar el taller completo, sigue la guía detallada en el siguiente docum
 
 ## 📌 Entrega del taller
 
-Subir un **documento en PDF** que incluya lo siguiente:
+Subir un **documento en PDF** que evidencie la implementación completa del flujo de automatización realizado en Make.
 
-### 🖼️ 1. Evidencia
-
-- Una **captura de pantalla del correo recibido** como resultado.
+El documento debe contener los siguientes elementos:
 
 ---
 
-### ✍️ 2. Reflexión
+## 🖼️ 1. Evidencia de implementación
 
-Responde la siguiente pregunta de forma sencilla:
+El estudiante debe modificar el escenario original agregando personalización dinámica en el correo automático.
 
-**¿Qué ventaja tiene automatizar este proceso en lugar de hacerlo manualmente?**
+### Requisitos obligatorios
 
-_(Respuesta corta)_
+### ✅ Personalizar el asunto del correo
+
+El asunto debe incluir el nombre ingresado en el formulario.
+
+Ejemplo:
+
+```text
+Hola Juan, hemos recibido tu formulario
+```
+
+Para lograrlo, el asunto debe utilizar el campo dinámico correspondiente al nombre capturado desde Google Forms.
 
 ---
+
+### ✅ Agregar nuevas variables al formulario
+
+Además de los campos básicos, el formulario debe incluir **mínimo 3 nuevos campos**.
+
+Ejemplos sugeridos:
+
+- Ciudad
+- Número telefónico
+- Tipo de solicitud
+
+---
+
+### ✅ Personalizar el cuerpo del correo
+
+El cuerpo del correo debe incluir al menos **3 variables dinámicas nuevas** provenientes del formulario.
+
+Ejemplo:
+
+```text
+Hola Juan,
+
+Hemos recibido correctamente tu información.
+
+Resumen del registro:
+
+- Ciudad: Bogotá
+- Teléfono: 3001234567
+- Tipo de solicitud: Información académica
+
+Gracias por completar el formulario.
+
+Saludos,
+Equipo de soporte
+```
+
+---
+
+## 📷 Capturas de pantalla 
+
+El PDF debe incluir capturas claras de:
+
+### 1. Formulario actualizado
+Mostrar los nuevos campos agregados.
+
+### 2. Configuración del módulo Gmail
+Mostrar:
+- asunto dinámico
+- variables utilizadas
+- configuración del Body
+
+### 3. Escenario completo en Make
+Mostrar todos los módulos conectados.
+
+### 4. Correo recibido
+Mostrar el resultado final con:
+- asunto personalizado
+- variables visibles dentro del mensaje
+
+---
+
+## ✍️ 2. Reflexión
+
+Responder las siguientes preguntas de manera clara y argumentada.
+
+### Pregunta 1
+
+**¿Qué ventajas ofrece utilizar variables dinámicas dentro de una automatización frente a enviar mensajes genéricos?**
+
+---
+
+### Pregunta 2
+
+**¿Cómo podría aplicarse este tipo de automatización en un contexto académico, empresarial o personal?**
+
+---
+
+📌 **Importante:**
+
+- El documento debe subirse en formato PDF.
+- Las capturas deben ser legibles.
+- El correo recibido debe mostrar personalización real usando datos del formulario.
 
 ## 🚀 Recomendación
 
